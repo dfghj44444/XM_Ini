@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Wxm_IniOperation", "Wxm_IniOperation.vcproj", "{E28EAD9F-11BB-4CCC-827A-757A3727094B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E28EAD9F-11BB-4CCC-827A-757A3727094B}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E28EAD9F-11BB-4CCC-827A-757A3727094B}.Debug|Win32.Build.0 = Debug|Win32
+		{E28EAD9F-11BB-4CCC-827A-757A3727094B}.Release|Win32.ActiveCfg = Release|Win32
+		{E28EAD9F-11BB-4CCC-827A-757A3727094B}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
