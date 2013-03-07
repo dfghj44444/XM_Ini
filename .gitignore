@@ -28,3 +28,4 @@ other_res/*
 Debug
 Release
 Rundir
+*.vcproject.*
