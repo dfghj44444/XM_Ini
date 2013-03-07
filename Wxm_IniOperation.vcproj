@@ -2,7 +2,7 @@
 <VisualStudioProject
 	ProjectType="Visual C++"
 	Version="9.00"
-	Name="Wxm_IniOperation"
+	Name="XM_ini"
 	ProjectGUID="{E28EAD9F-11BB-4CCC-827A-757A3727094B}"
 	RootNamespace="Wxm_IniOperation"
 	TargetFrameworkVersion="196613"
@@ -59,7 +59,6 @@
 			/>
 			<Tool
 				Name="VCLinkerTool"
-				AdditionalDependencies="PublicLib_d.lib"
 				OutputFile="$(OutDir)\$(ProjectName)_d.dll"
 				AdditionalLibraryDirectories="&quot;$(ProjectDir)../lib/&quot;"
 				GenerateDebugInformation="true"
@@ -92,7 +91,7 @@
 			Name="Release|Win32"
 			OutputDirectory="$(SolutionDir)Rundir"
 			IntermediateDirectory="$(ConfigurationName)"
-			ConfigurationType="1"
+			ConfigurationType="2"
 			CharacterSet="2"
 			WholeProgramOptimization="1"
 			>
@@ -115,6 +114,7 @@
 				Name="VCCLCompilerTool"
 				Optimization="2"
 				EnableIntrinsicFunctions="true"
+				PreprocessorDefinitions="INIFILE_EXPORT"
 				RuntimeLibrary="2"
 				EnableFunctionLevelLinking="true"
 				WarningLevel="3"
@@ -168,7 +168,11 @@
 			UniqueIdentifier="{4FC737F1-C7A5-4376-A066-2A32D752A2FF}"
 			>
 			<File
-				RelativePath=".\Wxm_IniFile.cpp"
+				RelativePath=".\Common.cc"
+				>
+			</File>
+			<File
+				RelativePath=".\XM_IniFile.cc"
 				>
 			</File>
 		</Filter>
@@ -178,7 +182,11 @@
 			UniqueIdentifier="{93995380-89BD-4b04-88EB-625FBE52EBFB}"
 			>
 			<File
-				RelativePath=".\Wxm_IniFile.h"
+				RelativePath=".\Common.h"
+				>
+			</File>
+			<File
+				RelativePath=".\XM_IniFile.h"
 				>
 			</File>
 		</Filter>

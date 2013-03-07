@@ -1,4 +1,9 @@
 XM_Ini
 ======
-版本：v0.1
-这是一个跨平台的Ini读写库，目前的这一版理论上只能作为静态类使用，并且需要手工申请内存，在下一版我将用参数返回值。
+Version：v0.3
+this is my Ini r/w lib what is cross platform，now just for C++ ,and next version will support for C languague.
+
+更新：
+v0.3
+1.now Memory Release automatually。
+2.changed some var names.
