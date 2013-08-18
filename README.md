@@ -10,5 +10,5 @@ v0.4
 1.Added Support For C languague.
 2.The C Version added Support for FileFomart:Dos,unix,mac,lfcr.
 v0.3
-1.Now Memory Release automatually¡£
+1.Now Memory Release automatually.
 2.Changed some var names.
