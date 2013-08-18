@@ -24,6 +24,8 @@ BuildLog.htm
 #dir
 .svn/*
 /.svn/
+.Rundir/*
+/.Rundir/
 other_res/*
 Debug
 Release
